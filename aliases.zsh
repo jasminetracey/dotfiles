@@ -19,6 +19,10 @@ alias serve="php artisan serve"
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
 alias composer="php -d memory_limit=-1 /opt/homebrew/bin/composer"
+alias pu="./vendor/bin/phpunit"
+alias puf="./vendor/bin/phpunit --filter "
+alias putu="./vendor/bin/phpunit --testsuite Unit"
+alias putf="./vendor/bin/phpunit --testsuite Feature"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
