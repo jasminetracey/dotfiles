@@ -38,7 +38,6 @@ brew 'yarn'
 
 # Apps
 cask '1password'
-cask 'caffeine'
 cask 'dbngin'
 cask 'discord'
 cask 'figma'
@@ -71,3 +70,4 @@ cask 'font-fira-code'
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
+mas 'Amphetamine', id: 937984704
